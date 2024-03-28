@@ -26,7 +26,6 @@ static void generate_ascending_order(int begin, int end)
 {
 	for (;begin <= end; ++begin) {
 		printf(is_prime(begin) ? "%d\n": "", begin);
-
 	}
 }
 
